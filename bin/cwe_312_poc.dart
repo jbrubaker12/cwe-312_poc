@@ -38,7 +38,7 @@ MIIBOgIBAAJBALf7uVv8vFxuVzK7HUlxFAKETCk1234567890EXAMPLEKEYDATA
 
   await loadWalletSigningKey(testPrivateKey);
 
-  print("Key loaded. Process is now idling for 5 minutes...");
+  print("Key loaded. Process is now idling for 360 minutes...");
   print("You can now search the process memory for the private key.");
-  await Future.delayed(Duration(minutes: 60));
+  await Future.delayed(Duration(minutes: 360));
 }
